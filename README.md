@@ -20,8 +20,8 @@ end
 
 -- Create the main window
 local Window = Rayfield:CreateWindow({
-    Name = "Yuki Hub",
-    LoadingTitle = "Made by Yuki",
+    Name = "modded_scripts",
+    LoadingTitle = "Made by tubergamer000",
     LoadingSubtitle = "Quality Ahead",
     Theme = "Default",
     DisableRayfieldPrompts = false,
@@ -33,18 +33,18 @@ local Window = Rayfield:CreateWindow({
     },
     Discord = {
         Enabled = true,
-        Invite = "SGaZpCpG4f",
+        Invite = "sem discord",
         RememberJoins = true
     },
     KeySystem = true,
     KeySettings = {
-        Title = "Anime Card Master | Key",
-        Subtitle = "Enter the key below to continue",
-        Note = "Join our Discord server for the key: 3aMXUmgqZQ",
+        Title = "tubergamer key",
+        Subtitle = "coloque a chave e continue",
+        Note = "scripts tubergamer key (beta_V4)",
         FileName = "Key",
         SaveKey = false,
         GrabKeyFromSite = false,
-        Key = {"vvahidoa"}
+        Key = {"beta_V4"}
     }
 })
 
@@ -165,7 +165,7 @@ MainTab:CreateInput({
 })
 
 MainTab:CreateButton({
-    Name = "Dupe Cards",
+    Name = "dupe card (beta) V4",
     Callback = function()
         if CardID > 0 then
             local args = {
@@ -408,21 +408,21 @@ local CreditTab = Window:CreateTab("Credits", nil)
 CreditTab:CreateSection("Credits")
 
 CreditTab:CreateButton({
-    Name = "GUI made by Yuki_Chan69",
+    Name = "GUI made by tubergamer000",
     Callback = function()
-        print("Credits: GUI made by Yuki_Chan69")
+        print("Credits: GUI made by tubergamer000")
     end
 })
 
 CreditTab:CreateButton({
-    Name = "Script made by wzlfsdev",
+    Name = "modded script (oficial)",
     Callback = function()
-        print("Credits: Script made by wzlfsdev")
+        print("script em portugues esta muito bom use")
     end
 })
 
 -- Final message on Credits Tab
 CreditTab:CreateParagraph({
-    Title = "Thank You",
-    Content = "Thanks for using the script! For updates, join the Discord server: https://discord.gg/QYP4VWz8"
+    Title = "obrigado gente",
+    Content = "obrigado por usar o script mas deixa o like para der videos"
 })
